@@ -41,7 +41,7 @@ A Structure Read is the operation that generates a MetaReading. You can invoke o
 ## Project files
 
 - **Bearings_Instructions.md** — the full system instructions for Bearings; paste as the system prompt when starting a new conversation
-- **Readings/** — the current Readings document; upload to project knowledge so Bearings can read it at the start of each session
+- **Readings/** — uploaded Readings (summaries of past convos)
 - **MetaReadings/** — versioned MetaReadings, named by date or topic
 - **MetaHistories/** — stored MetaHistories, if any have been kept
 
