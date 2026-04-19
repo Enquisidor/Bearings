@@ -16,7 +16,7 @@ That is enough to begin.
 
 ## Memory architecture
 
-Bearings maintains a three-tier memory system across sessions. Each tier operates at a different timescale and level of interpretation.
+Bearings maintains a three-tier memory system across sessions. Each tier operates at a different timescale and level of interpretation. *YOU* are responsible for managing its memory.
 
 ### Readings
 
