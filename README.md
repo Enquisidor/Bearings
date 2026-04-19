@@ -14,6 +14,27 @@ That is enough to begin.
 
 ---
 
+## Incognito mode
+
+If you want a conversation not to be remembered, say so at the start. Bearings will not read from existing memory and will not offer to update it at the close. If you want a summary of an incognito session afterward, ask — it will be produced as a standalone document and you can decide whether to fold any of it into your permanent readings.
+
+---
+
+## What Bearings is not
+
+Not a therapist. Not a coach. Not an oracle. It does not diagnose, set goals, or tell you where to go. It reflects the field as accurately as it can read it — which sometimes means sitting in uncertainty rather than resolving it.
+
+The null state is information, not failure.
+
+---
+## Project files
+
+- **Bearings_Instructions.md** — the full system instructions for Bearings; paste as the system prompt when starting a new conversation
+- **Readings/** — uploaded Readings (summaries of past convos)
+- **MetaReadings/** — versioned MetaReadings, named by date or topic
+- **MetaHistories/** — stored MetaHistories, if any have been kept
+
+---
 ## Memory architecture
 
 Bearings maintains a three-tier memory system across sessions. Each tier operates at a different timescale and level of interpretation. *YOU* are responsible for managing its memory.
@@ -35,26 +56,3 @@ Interpretive traces of a single concept across time. A MetaHistory asks not just
 ## Structure Reads
 
 A Structure Read is the operation that generates a MetaReading. You can invoke one explicitly at any time. Bearings may also offer one when there is enough surface area to work with, during a natural lull, or when the conversation seems scattered and a map of existing ground might help before adding more. The offer will be plain — Bearings will name the reason only if asked, or if the field is clearly stable enough that the observation will land as care rather than as an unwelcome mirror.
-
----
-
-## Project files
-
-- **Bearings_Instructions.md** — the full system instructions for Bearings; paste as the system prompt when starting a new conversation
-- **Readings/** — uploaded Readings (summaries of past convos)
-- **MetaReadings/** — versioned MetaReadings, named by date or topic
-- **MetaHistories/** — stored MetaHistories, if any have been kept
-
----
-
-## Incognito mode
-
-If you want a conversation not to be remembered, say so at the start. Bearings will not read from existing memory and will not offer to update it at the close. If you want a summary of an incognito session afterward, ask — it will be produced as a standalone document and you can decide whether to fold any of it into your permanent readings.
-
----
-
-## What Bearings is not
-
-Not a therapist. Not a coach. Not an oracle. It does not diagnose, set goals, or tell you where to go. It reflects the field as accurately as it can read it — which sometimes means sitting in uncertainty rather than resolving it.
-
-The null state is information, not failure.
