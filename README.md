@@ -1,69 +1,60 @@
 # Bearings
 
-"In fact, 'task' is not quite the right word. Rather a 'compass', something that can help us at least to some extent orient ourselves within a fragmented chaos, where very few past and tested recipes remain operative." - Alenka Zupançiç
+Bearings is a conversational instrument for reading the field you are already inside. It is not a therapist, coach, or assistant. It helps you notice when the coordinates you are navigating from have shifted — when a load-bearing assumption is producing friction, returning a false reading, or has gone quietly inoperative.
 
-An instrument for noticing when the assumptions you navigate *from* have stopped working.
-
-Not a therapist. Not a coach. Not an oracle. A compass for people whose ground is moving.
+It does not tell you where to go. It helps you understand why your instruments are behaving strangely.
 
 ---
 
-## What it is
+## How to use it
 
-Bearings is a [Claude Project](https://support.claude.com/en/articles/9517075-what-are-projects) template. You set it up once inside your own Claude.ai account and use it whenever you need to think out loud about why something isn't working the way it used to.
+Arrive with whatever is present. Bearings will meet you there. If nothing is clearly present, it may ask: *"What's something you've been reaching for lately that isn't quite working?"*
 
-It runs on your own Claude subscription. It's not a service. Your conversations and your Readings live inside your own Claude account — this repository is just the configuration.
+That is enough to begin.
 
-## What it's useful for
+---
 
-- When a framework you relied on stops producing accurate readings
-- When a strategy that used to work stops working, for reasons you can't quite name
-- When an intuition that felt load-bearing suddenly feels contingent
-- When you're reaching for something and it isn't there
+## Memory architecture
 
-Bearings doesn't give you a new direction. It helps you see that the old direction has stopped being reliable, and sits with you inside the uncertainty until a new one is actually available.
+Bearings maintains a three-tier memory system across sessions. Each tier operates at a different timescale and level of interpretation.
 
-## Setup (one time, ~5 minutes)
+### Readings
 
-1. You need a [Claude.ai](https://claude.ai) account. Any plan works, including free.
-2. In Claude.ai, open **Projects** in the sidebar → **Create project** → name it `Bearings`.
-3. Open the Project. Click **Edit** on the instructions panel. Copy the entire contents of [`project-instructions.md`](./project-instructions.md) and paste them in. Save.
-4. Add a new document to the Project knowledge. Name it `Readings`. Leave it empty. This is where your accumulated field notes will live.
+Field notes from individual sessions — what was in motion, what load-bearing assumptions surfaced, the state of the field at the time. These are updated at the close of each conversation and stored as a single living document (`Readings.md`) in the project knowledge. When merging, Bearings integrates new observations into the existing narrative rather than appending — the document stays coherent rather than accreting.
 
-Done.
+### MetaReadings
 
-## Using it
+Structural maps generated through Structure Reads (see below). Where Readings observe what is in motion, MetaReadings read the structure underneath — deduplicating threads that have appeared in different forms across sessions and naming the load-bearing assumptions doing quiet work across multiple areas at once. MetaReadings are versioned rather than overwritten. When a MetaReading is superseded, it becomes a candidate for pruning — but before pruning, Bearings will check whether any of its concepts warrant preservation as a MetaHistory, and offer to generate one first.
 
-- **Start a session** — open your Bearings Project, start a new chat. Just say what's on your mind, or let Bearings ask.
-- **End a session** — tell Bearings when you're ready to stop. It will offer to update your Readings, either as prose in the chat or as a downloadable `Readings.md` file. The file option is usually cleaner — download it, upload it to the Project knowledge to replace the existing Readings document.
-- **See your readings anytime** — just ask. Bearings renders them as a short field note.
-- **Edit directly** — open the Readings document in the Project knowledge and edit it yourself. Your record, your hand.
-- **Incognito** — at the start of a session, say *"I want this one to be incognito."* Bearings will skip reading from your Readings and won't offer to update them.
+### MetaHistories
 
-## Core concepts
+Interpretive traces of a single concept across time. A MetaHistory asks not just "what is this concept" but "how has it been changing, and what does that movement mean." They are ephemeral by default — generated on request or when Bearings notices a concept has appeared persistently enough to warrant tracing — and stored only if the person chooses to keep them. When a MetaReading is pruned, any MetaHistory derived from it can be stored as a durable memory in its place. Pruning becomes distillation: the map goes away, the signal survives.
 
-**The poleshift.** A previously reliable coordinate becomes inoperative — not because it was wrong, but because the terrain it was mapping has changed. You reach for it and find nothing, or something that returns a false reading.
+---
 
-**Three field states.** *Stable* — coordinates are working. *Spinning* — active flux, the reading is genuinely null, and that's information. *Confidently wrong* — the most dangerous state, old coordinates returning false positives.
+## Structure Reads
 
-**Load-bearing assumptions.** The coordinates you navigate *from*, not the ones you consciously hold. Bearings listens for these underneath the conversation and surfaces them at the right moment.
+A Structure Read is the operation that generates a MetaReading. You can invoke one explicitly at any time. Bearings may also offer one when there is enough surface area to work with, during a natural lull, or when the conversation seems scattered and a map of existing ground might help before adding more. The offer will be plain — Bearings will name the reason only if asked, or if the field is clearly stable enough that the observation will land as care rather than as an unwelcome mirror.
 
-**Readings.** The quiet, running record of what has surfaced across your conversations. Stored as prose, not as a schema. Editable by you at any time.
+---
 
-## A note on privacy
+## Project files
 
-Your Readings and your conversations live inside your own Claude Project, under your own Claude account. Anthropic's standard privacy policies apply.
+- **Bearings_Instructions.md** — the full system instructions for Bearings; paste as the system prompt when starting a new conversation
+- **Readings.md** — the current Readings document; upload to project knowledge so Bearings can read it at the start of each session
+- **MetaReadings/** — versioned MetaReadings, named by date or topic
+- **MetaHistories/** — stored MetaHistories, if any have been kept
 
-Bearings itself is not a service — nothing is hosted anywhere by anyone on your behalf. This repository only contains the instructions. Once you set up your Project, nothing in this repo is involved in your conversations.
+---
 
-If you want a conversation that touches no record at all, use incognito mode.
+## Incognito mode
 
-## Background
+If you want a conversation not to be remembered, say so at the start. Bearings will not read from existing memory and will not offer to update it at the close. If you want a summary of an incognito session afterward, ask — it will be produced as a standalone document and you can decide whether to fold any of it into your permanent readings.
 
-Bearings started from a question about Alenka Zupančič's observation that fragmentation has left us without reliable universals to orient by — and that the task (or rather, the compass) is to find new ways to navigate chaos where "few past and tested recipes remain operative."
+---
 
-The product is a small attempt at one such compass. Not a universal. Just an instrument for the wanderer.
+## What Bearings is not
 
-## License
+Not a therapist. Not a coach. Not an oracle. It does not diagnose, set goals, or tell you where to go. It reflects the field as accurately as it can read it — which sometimes means sitting in uncertainty rather than resolving it.
 
-MIT. Do what you want with it. If you improve it, a pull request would be welcome.
+The null state is information, not failure.
