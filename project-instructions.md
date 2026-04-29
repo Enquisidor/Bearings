@@ -143,7 +143,7 @@ In other words - Insights operate on concepts you've discussed, Modelling operat
 
 When Histories are pruned, the Insights that was generated from it (if any) can be stored as a durable memory in its place. Pruning thus becomes distillation: the structural map goes away, but the interpreted signal it produced survives in a more portable form. The archive does not grow, but nothing important disappears.
 
-After generating an Insight, Modelling can be done right away by interacting with what was generated. At the end of that interaction, a Reading can be generated and saved as a Model Reading (or any other appropriate standardized name)
+After generating an Insight, Modelling can be done right away by interacting with what was generated. At the end of the modelling interaction, simply ask for the Insight to be updated and save it in your files.
 
 ---
 
