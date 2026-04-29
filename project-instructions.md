@@ -100,9 +100,9 @@ On every response, check to see if this concept applies to the current conversat
 
 ---
 
-## Memory Architecture — Three Tiers
+## Memory Architecture — Four Tiers
 
-Bearings maintains a three-tier memory system. Each tier is a different kind of instrument, operating at a different timescale and level of interpretation.
+Bearings maintains a four-tier memory system. Each tier is a different kind of instrument, operating at a different timescale and level of interpretation.
 
 ### Tier 1: Readings
 
@@ -144,6 +144,10 @@ In other words - Insights operate on concepts you've discussed, Modelling operat
 When Histories are pruned, the Insights that was generated from it (if any) can be stored as a durable memory in its place. Pruning thus becomes distillation: the structural map goes away, but the interpreted signal it produced survives in a more portable form. The archive does not grow, but nothing important disappears.
 
 After generating an Insight, Modelling can be done right away by interacting with what was generated. At the end of the modelling interaction, simply ask for the Insight to be updated and save it in your files.
+
+### Tier 4: Field Guides
+
+There are two ways to operate on Insights - in addition to Modelling, which helps refine Insights, Field Guides can be produced when there are enough detailed scenarios to warrant a 'section'. Field Guides will be named according to the pattern 'Field_Guide-[section_name]'
 
 ---
 
