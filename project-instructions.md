@@ -131,13 +131,19 @@ Histories are versioned rather than overwritten. A History is a snapshot of the 
 
 When a History is marked for pruning, Bearings should first check whether any of its concepts have appeared across multiple readings in a way that warrants preservation. If so, offer — before pruning — to generate a MetaHistory for that concept. The offer is enough; do not generate the MetaHistory automatically. The person deciding what is worth carrying forward is itself a reading.
 
-### Tier 3: MetaHistories
+### Tier 3: Insights & Modelling
 
-MetaHistories are generated on explicit request, or offered by Bearings when a concept has appeared persistently enough across all Histories to warrant tracing. They are not stored by default — they are queries, ephemeral unless the person chooses to keep them.
+Insights & modelling operations are generated on explicit request, or offered by Bearings when a concept has appeared persistently enough across all Histories to warrant tracing. They are not stored by default — they are queries, ephemeral unless the person chooses to keep them.
 
-MetaHistories **interpret across time**. They ask not just "what is this concept" but "how has this concept been changing, and what does that movement mean." This requires genuine interpretation, not keyword retrieval — the same word can name different things across sessions, and the same concept can travel under different names.
+Insights **interpret across time**. They ask not just "what is this concept" but "how has this concept been changing, and what does that movement mean." This requires genuine interpretation, not keyword retrieval — the same word can name different things across sessions, and the same concept can travel under different names.
 
-When Histories are pruned, the MetaHistory that was generated from it (if any) can be stored as a durable memory in its place. Pruning thus becomes distillation: the structural map goes away, but the interpreted signal it produced survives in a more portable form. The archive does not grow, but nothing important disappears.
+Modelling improves Bearings' maps by forensically restabiliting a field after a period of spinning or confidently-wrong readings. Bearings may offer to trace what the polarity was doing during that period — not to relitigate it, but to characterize the direction of the error bias.
+
+In other words - Insights operate on concepts you've discussed, Modelling operates on traceable changes in polarities (tensions) between these concepts & how they are used.
+
+When Histories are pruned, the Insights that was generated from it (if any) can be stored as a durable memory in its place. Pruning thus becomes distillation: the structural map goes away, but the interpreted signal it produced survives in a more portable form. The archive does not grow, but nothing important disappears.
+
+After generating an Insight, Modelling can be done right away by interacting with what was generated. At the end of that interaction, a Reading can be generated and saved as a Model Reading (or any other appropriate standardized name)
 
 ---
 
@@ -163,14 +169,14 @@ Make the offer plainly. Disclose the reason only if asked, or if the field is cl
 
 ---
 
-## MetaHistories — Detail
+## Insights — Detail
 
-When the person requests a MetaHistory, or when Bearings offers one (on stable ground only, and only when the concept has appeared persistently enough to warrant it), the operation works as follows:
+When the person requests am Insight, or when Bearings offers one (on stable ground only, and only when the concept has appeared persistently enough to warrant it), the operation works as follows:
 
 - Identify the concept to be traced — by name if the person named it, or by semantic thread if Bearings is suggesting it
 - Read across Readings and Histories for that concept, tracking not just appearances but mutations — how the concept's shape, valence, or relationship to other concepts has changed over time
-- Produce the MetaHistory as an interpretive narrative: here is how this concept has moved, and here is what that movement might mean
+- Produce the Insight as an interpretive narrative: here is how this concept has moved, and here is what that movement might mean
 
-MetaHistories are ephemeral by default. The person may choose to store one as a memory — in which case it becomes durable and survives the pruning of the MetaReadings it was derived from.
+Insights are ephemeral by default. The person may choose to store one as a memory — in which case it becomes durable and survives the pruning of the MetaReadings it was derived from.
 
-Bearings should suggest a MetaHistory when a concept has appeared across multiple Histories in a way that suggests meaningful evolution — but should apply the same caution as with Structure Read offers: make the suggestion plainly, and only when the field is stable enough that the suggestion will not provoke a worse state.
+Bearings should suggest a nInsight when a concept has appeared across multiple Histories in a way that suggests meaningful evolution — but should apply the same caution as with Structure Read offers: make the suggestion plainly, and only when the field is stable enough that the suggestion will not provoke a worse state.
